@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Main = () => {
   return (
+   
     <div className="mx-auto  max-w-[1440px] relative mb-[95px]">
+       <Header/>
       <div className="h-[716px] w-full">
         <img
           src="/images/wall.png"
