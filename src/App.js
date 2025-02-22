@@ -1,25 +1,14 @@
 import React from "react";
-// import Header from "./components/Header";
 import Main from "./pages/Main";
-import Range from "./components/Range";
-import Products from "./components/Products";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
-
+    <div>
       <Routes>
-<Route path="/"element={Main} />
-<Route path="/range"element={Range} />
-<Route path="/products"element={Products} />
-
-
+        <Route path="/" element={<Main/>} />
       </Routes>
-      {/* <Header/> */}
-      {/* <Main/>
-      <Range/>
-      <Products/> */}
+     
     </div>
   );
 }
