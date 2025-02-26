@@ -1,9 +1,10 @@
 import React from "react";
 
-const navItems = ["Home", "Shop", "About", "Contact"];
-const icons = ["men", "search", "heart", "cart"];
+
 
 const Header = () => {
+  const navItems = ["Home", "Shop", "About", "Contact"];
+const icons = ["men", "search", "heart", "cart"];
   return (
     <header>
       <nav className="bg-white dark:bg-gray-900 top-0 start-0 border-b mx-auto max-w-[1440px] border-gray-200 dark:border-gray-600">
