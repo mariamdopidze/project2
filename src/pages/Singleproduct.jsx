@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Asgaardsofa from "../components/Asgaardsofa";
+import Aboutproducts from "../components/Aboutproducts";
 
 const Singleproduct = () => {
   return (
@@ -27,6 +28,7 @@ const Singleproduct = () => {
         </div>
       </div>
       <Asgaardsofa/>
+      <Aboutproducts/>
     </div>
   );
 };
