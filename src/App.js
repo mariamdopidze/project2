@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "./pages/Main";
-import Shop from "./pages/Shop"
+import Shop from "./pages/Shop";
+import Singleproduct from "./pages/Singleproduct";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main/>} />
         <Route path="/Shop" element={<Shop/>} />
+        <Route path="/single" element={<Singleproduct/>} />
       </Routes>
      
     </div>
