@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1440px] h-[505px] w-full mx-auto bg-white">
       <footer className="bg-white dark:bg-gray-900">
+      <hr className="my-6 border-gray-200" />
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">

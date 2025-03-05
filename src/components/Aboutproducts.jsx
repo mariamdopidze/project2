@@ -5,7 +5,7 @@ const Aboutproducts = () => {
     <div className="max-w-[1440px] mx-auto">
       <hr className="my-6 border-gray-200" />
       
-      {/* Information Section */}
+    
       <div className="mt-6 px-8 ">
       <div className="flex mx-auto items-center justify-center text-center space-x-8 mt-6 px-8">
         <h3 className="text-2xl font-medium text-black">Description</h3>
@@ -29,7 +29,7 @@ const Aboutproducts = () => {
         </p>
       </div>
 
-      {/* Product Images */}
+   
       <div className="flex space-x-4 mt-9 px-24 mx-auto r">
         <img src="/images/sofa1.png" alt="Sofa 1" className=" rounded-xl w-[605px] h-[348px] bg-[#F9F1E7]" />
         <img src="/images/sofa2.png" alt="Sofa 2" className="rounded-xl w-[605px] h-[348px] bg-[#F9F1E7]" />

@@ -99,16 +99,16 @@ const Shop = () => {
               <img
                 src={product.img}
                 alt={product.title}
-                className="w-[285px] h-[301px] object-cover rounded-lg bg-slate-100 border border-gray-400"
+                className="w-[284px] h-[301px] object-cover rounded-lg bg-slate-100 border border-gray-400"
               />
-              <div className=" w-full bg-gray-200 p-4 rounded-lg">
-                <h3 className="text-[#3A3A3A] text-2xl font-semibold">
+              <div className=" max-w-[284px] max-h-[145px] bg-gray-200 p-4 rounded-lg overflow-hidden">
+                <h3 className="text-[#3A3A3A] text-2xl font-semibold truncate">
                   {product.title}
                 </h3>
-                <span className="text-[#898989] font-medium text-base block">
+                <span className="text-[#898989] font-medium text-base block truncate">
                   {product.span}
                 </span>
-                <p className="text-[#3A3A3A] mt-2 text-xl font-semibold">
+                <p className="text-[#3A3A3A] mt-2 text-xl font-semibold truncate">
                   {product.price}
                 </p>
               </div>
