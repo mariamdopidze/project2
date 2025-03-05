@@ -3,6 +3,7 @@ import Main from "./pages/Main";
 import Shop from "./pages/Shop";
 import Singleproduct from "./pages/Singleproduct";
 import { Routes, Route } from "react-router-dom";
+import Comparison from "./pages/Comparison";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/Shop" element={<Shop/>} />
         <Route path="/single" element={<Singleproduct/>} />
+        <Route path="/comparison" element={<Comparison/>} />
       </Routes>
      
     </div>

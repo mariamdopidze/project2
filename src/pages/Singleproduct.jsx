@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Asgaardsofa from "../components/Asgaardsofa";
 import Aboutproducts from "../components/Aboutproducts";
 import Relatedproduct from "../components/Relatedproduct";
+import Footer from "../components/Footer";
 
 const Singleproduct = () => {
   return (
@@ -31,6 +32,7 @@ const Singleproduct = () => {
       <Asgaardsofa/>
       <Aboutproducts/>
       <Relatedproduct/>
+      <Footer/>
     </div>
   );
 };
