@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import General from "../components/General";
+import Footer from "../components/Footer";
 
 const Comparison = () => {
   return (
@@ -63,6 +64,7 @@ const Comparison = () => {
         </div>
       </div>
       <General/>
+      <Footer/>
     </div>
   );
 };
