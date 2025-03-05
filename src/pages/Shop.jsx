@@ -41,8 +41,10 @@ const Shop = () => {
   }));
 
   return (
-    <div className="max-w-[1440px] bg-slate-300 mx-auto relative">
-      <Header />
+    <div>
+       <Header />
+    <div className="max-w-[1440px]  mx-auto relative">
+     
       <div>
         <img
           src="/images/Rectangle.png"
@@ -137,6 +139,7 @@ const Shop = () => {
         ))}
       </div>
       <Footer />
+    </div>
     </div>
   );
 };
