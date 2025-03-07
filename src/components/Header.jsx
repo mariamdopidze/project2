@@ -56,7 +56,7 @@ const Header = () => {
           <img src="/images/heart.png" alt="" />
         </Link>
         <Link
-          to="#"
+          to="/cart"
           className="transform transition-transform duration-300 hover:scale-125"
         >
           <img src="/images/cart.png" alt="" />

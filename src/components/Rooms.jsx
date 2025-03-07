@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import Furniture from './Furniture'
 
 const Rooms = () => {
   return (
@@ -16,6 +17,7 @@ const Rooms = () => {
 
       </div>
       </div>
+      <Furniture/>
       <Footer/>
     </div>
   )

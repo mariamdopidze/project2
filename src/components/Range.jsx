@@ -1,5 +1,6 @@
 import React from "react";
 import Products from "./Products";
+import Furniture from "./Furniture";
 
 const categories = [
   { name: "Dining", image: "/images/dining.png" },
@@ -28,6 +29,7 @@ const Range = () => {
       </div>
 
       <Products />
+      <Furniture/>
     </div>
   );
 };
