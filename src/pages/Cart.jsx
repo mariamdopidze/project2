@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
 
 const Cart = () => {
 
@@ -61,9 +63,11 @@ const Cart = () => {
             <span className="text-lg font-medium">Total</span>
             <span className="text-lg font-medium">Rs. 250,000.00</span>
           </div>
+          <Link to="/checkout">
           <button className="w-full h-[59px] border border-black mt-4 font-medium text-lg">
             Check Out
           </button>
+          </Link>
         </div>
       </div>
       <div className="h-[270px] bg-[#FAF3EA] flex justify-center  mx-auto items-center  gap-12">

@@ -5,6 +5,7 @@ import Singleproduct from "./pages/Singleproduct";
 import { Routes, Route } from "react-router-dom";
 import Comparison from "./pages/Comparison";
 import Cart from "./pages/Cart"
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/single" element={<Singleproduct/>} />
         <Route path="/comparison" element={<Comparison/>} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/checkout" element={<Checkout/>} />
       </Routes>
      
     </div>
