@@ -7,6 +7,7 @@ import Comparison from "./pages/Comparison";
 import Cart from "./pages/Cart"
 import Checkout from "./pages/Checkout";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/checkout" element={<Checkout/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/blog" element={<Blog/>} />
       </Routes>
      
     </div>

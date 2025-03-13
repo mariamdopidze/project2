@@ -38,7 +38,7 @@ const Header = () => {
       </div>
       <div className="flex gap-[45px]">
         <Link
-          to="#"
+          to="blog"
           className="transform transition-transform duration-300 hover:scale-125"
         >
           <img src="/images/men.png" alt="" />
