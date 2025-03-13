@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Comparison from "./pages/Comparison";
 import Cart from "./pages/Cart"
 import Checkout from "./pages/Checkout";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/comparison" element={<Comparison/>} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
      
     </div>
