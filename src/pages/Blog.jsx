@@ -2,8 +2,17 @@ import React from "react";
 import Header from "../components/Header";
 import Exploring from "../components/Exploring";
 import Handmade from "../components/Handmade";
+import Categories from "../components/Categories";
+import Footer from "../components/Footer";
 
 const Blog = () => {
+  const icons = [
+    { name: "quality", title: "Best Quality", span: "High-quality materials" },
+    { name: "guarantee", title: "Warranty", span: "1-year warranty included" },
+    { name: "shipping", title: "Fast Shipping", span: "Delivery in 2-5 days" },
+    { name: "support", title: "24/7 Support", span: "We're here to help" },
+  ];
+
   return (
     <div className="max-w-[1440px] mx-auto">
       <Header />
@@ -23,7 +32,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className="h-[2710px] bg-slate-300 pl-[100px] pt-[106px] flex">
+      <div className="h-[2710px]  pl-[100px] pt-[106px] flex">
         <div className="w-[820px] h-[2490px]">
           <img
             src="/images/Rectangle 68.png"
@@ -135,80 +144,29 @@ const Blog = () => {
               />
             </div>
           </form>
-          <div className="flex flex-col">
-            
-
-            <ul class="w-[251px] mt-[43px] mx-auto h-[353px] ">
-            <h2 className="text-2xl font-medium ">Categories</h2>
-              <li class="pt-8 sm:pb-4">
-                <div class="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div class="flex-1 min-w-0">
-                    <p class=" text-[#9F9F9F] text-base font-normal truncate dark:text-white">
-                    Crafts
-                    </p>
-                    
-                  </div>
-                  <div class="inline-flex items-center  text-[#9F9F9F] text-base font-normal dark:text-white">
-                    2
-                  </div>
-                </div>
-              </li>
-              <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div class="flex-1 min-w-0">
-                    <p class=" text-[#9F9F9F] text-base font-normal truncate dark:text-white">
-                    Design
-                    </p>
-                    
-                  </div>
-                  <div class="inline-flex items-center  text-[#9F9F9F] text-base font-normal dark:text-white">
-                    8
-                  </div>
-                </div>
-              </li>
-              <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div class="flex-1 min-w-0">
-                    <p class=" text-[#9F9F9F] text-base font-normal truncate dark:text-white">
-                    Handmade
-                    </p>
-                   
-                  </div>
-                  <div class="inline-flex items-center  text-[#9F9F9F] text-base font-normal dark:text-white">
-                    7
-                  </div>
-                </div>
-              </li>
-              <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div class="flex-1 min-w-0">
-                    <p class=" text-[#9F9F9F] text-base font-normal truncate dark:text-white">
-                    Interior
-                    </p>
-                    
-                  </div>
-                  <div class="inline-flex items-center  text-[#9F9F9F] text-base font-normal dark:text-white">
-                    1
-                  </div>
-                </div>
-              </li>
-              <li class="pt-3 pb-0 sm:pt-4">
-                <div class="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div class="flex-1 min-w-0">
-                    <p class=" text-[#9F9F9F] text-base font-normal truncate dark:text-white">
-                    Wood
-                    </p>
-                   
-                  </div>
-                  <div class="inline-flex items-center  text-[#9F9F9F] text-base font-normal dark:text-white">
-                    6
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+         <Categories/>
         </div>
       </div>
+      <div className="h-[270px] bg-[#FAF3EA] flex justify-center  mx-auto items-center  gap-12">
+        {icons.map((icon, index) => (
+          <div key={index} className="flex items-center gap-4">
+            <img
+              src={`/images/${icon.name}.png`}
+              alt={icon.name}
+              className="w-[48px] h-[48px]"
+            />
+            <div className="flex flex-col">
+              <h3 className="text-2xl  font-semibold text-[#242424]">
+                {icon.title}
+              </h3>
+              <span className="text-xl font-medium text-[#898989]">
+                {icon.span}
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+      <Footer/>
     </div>
   );
 };
