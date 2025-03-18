@@ -117,8 +117,45 @@ const Shop = () => {
             </div>
           ))}
         </div>
+        
       )}
-
+<nav className="flex justify-center mt-[70px] mb-[83px]">
+            <ul className="inline-flex -space-x-px text-base gap-10">
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-4 h-[60px] w-[60px] leading-tight text-gray-500 bg-white rounded-xl border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  1
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-4 h-[60px] w-[60px] leading-tight text-gray-500 bg-white rounded-xl border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  2
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  aria-current="page"
+                  className="flex items-center justify-center px-4 h-[60px] w-[60px] text-blue-600 rounded-xl border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+                >
+                  3
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-4 h-[60px] w-[98px] leading-tight text-gray-500 bg-white rounded-xl border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  Next
+                </a>
+              </li>
+            </ul>
+          </nav>
       <div className="h-[270px] bg-[#FAF3EA] flex justify-center  mx-auto items-center  gap-12">
         {icons.map((icon, index) => (
           <div key={index} className="flex items-center gap-4">
@@ -138,6 +175,7 @@ const Shop = () => {
           </div>
         ))}
       </div>
+      
       <Footer />
     </div>
     </div>

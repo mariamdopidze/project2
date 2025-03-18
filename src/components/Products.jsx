@@ -78,7 +78,7 @@ const Products = () => {
         ))}
       </div>
 
-      <button className="text-[#B88E2F] w-[245px] h-[48px] border-[#B88E2F] rounded-md border items-center justify-center text-center mx-auto text-base font-semibold flex">
+      <button className= "text-[#B88E2F] mt-[32px] mb-[53px] w-[245px] h-[48px] border-[#B88E2F] rounded-md border items-center justify-center text-center mx-auto text-base font-semibold flex">
         Show More
       </button>
 

@@ -35,13 +35,13 @@ const Cart = () => {
 
       <div className="flex gap-10 mt-10 h-[525px]">
         <div className="w-[817px] p-4">
-          <ul className="flex px-6 gap-4 items-center justify-between h-[55px] font-medium bg-[#F9F1E7] p-2 rounded">
+          <ul className="flex px-6 gap-4 items-center justify-between h-[55px] font-medium bg-[#F9F1E7] p-2 rounded mt-[46px]">
             <li>Product</li>
             <li>Price</li>
             <li>Quantity</li>
             <li>Subtotal</li>
           </ul>
-          <div className="flex items-center gap-8 mt-4">
+          <div className="flex items-center gap-[69px] mt-[57px]">
             <img
               src="/images/first.png"
               alt="Product"
@@ -49,17 +49,19 @@ const Cart = () => {
             />
             <span>Asgaard sofa</span>
             <span>Rs. 250,000.00</span>
+            <div className="w-[32px] h-[32px] rounded-md border border-black text-center items-center">1</div>
             <span>Rs. 250,000.00</span>
+            <img src ="/images/delete.png" alt=""/>
           </div>
         </div>
 
-        <div className="w-[393px] h-[390px] bg-[#F9F1E7] p-6 rounded-lg flex flex-col justify-between">
+        <div className="w-[393px] h-[390px] bg-[#F9F1E7] p-6 rounded-lg flex flex-col justify-between mt-[62px]">
           <h3 className="text-lg font-semibold text-center">Cart Totals</h3>
-          <div className="flex justify-between border-b pb-2">
+          <div className="flex justify-between  pb-2">
             <span className="text-base">Subtotal</span>
             <span className="text-base">Rs. 250,000.00</span>
           </div>
-          <div className="flex justify-between border-b pb-2 mt-2">
+          <div className="flex justify-between  pb-2 mt-2">
             <span className="text-lg font-medium">Total</span>
             <span className="text-lg font-medium">Rs. 250,000.00</span>
           </div>

@@ -3,8 +3,10 @@ import React from "react";
 const Furniture = () => {
   return (
     <div className="max-w-[1440px] mx-auto relative mt-[83px] h-[780px]">
-      <h4>Share your setuo with</h4>
-      <h2>#FuniroFurniture</h2>
+      
+ 
+      
+
       <img
         src="/images/Rectangle 36.png"
         alt=""
